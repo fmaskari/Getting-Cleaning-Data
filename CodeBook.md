@@ -12,12 +12,11 @@ Experiment involved a group of 30 volunteers within age of 19-48 years. Each per
 ##Creating the tidy datafile
 
 ###Guide to create the tidy data file
-
-*Download the data files from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-*Unzip the file using the code: unzip("getdata-projectfiles-UCI HAR Dataset.zip") Note: downloaded file HAS to be in working directory
-*Data files in the "Inertial Signals" folders are ignored.
-*Make sure the "dplyr" and "reshape2" packages are already installed
-*Run the run_analysis.R script (link in next section)
+- Download the data files from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+- Unzip the file using the code: unzip("getdata-projectfiles-UCI HAR Dataset.zip") Note: downloaded file HAS to be in working directory
+- Data files in the "Inertial Signals" folders are ignored.
+- Make sure the "dplyr" and "reshape2" packages are already installed
+- Run the run_analysis.R script (link in next section)
 
 ###Cleaning of the data
 
@@ -27,9 +26,9 @@ Script created merges all the data files into one large, comprehensive, datafram
 ##Description of the variables in the tidy.txt file
 
 General description of the file:
-*Dimensions is 180x48
-*Each observation is composed of the average of the means and standard deviations of each measurement for each subject and activity
-*Variables are listed below
+- Dimensions are 180x48
+- Each observation is composed of the average of the means and standard deviations of each measurement for each subject and activity
+- Variables are listed below
 
 ###subjects
 ID number of each subject performing the various activities. Ranges from 1-30, each number representing one of the 30 volunteers who did the study. Class: integer
