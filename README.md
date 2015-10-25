@@ -20,8 +20,7 @@ The course project involved reading in and analyzing data from the Human Activit
 ##After completing pre-script steps 
 You can download the run_analysis.R script from here(https://github.com/fmaskari/Getting-Cleaning-Data/blob/master/run_analysis.R)
 
-The script will:
-1. Automatically reset the working directory to the downloaded folder "UCI HAR Dataset" for you (for this to work, must make sure that the working directory has the folder directly within it, as stated above)
+The script will automatically reset the working directory to the downloaded folder "UCI HAR Dataset" for you (for this to work, must make sure that the working directory has the folder directly within it, as stated above) and:
 
 2. Loads the "dplyr" and "reshape2" packages for use later in the script
 
